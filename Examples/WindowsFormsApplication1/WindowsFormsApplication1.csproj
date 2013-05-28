@@ -44,6 +44,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DictionaryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DictionaryForm.Designer.cs">
+      <DependentUpon>DictionaryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExtensionMethodForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExtensionMethodForm2.Designer.cs">
+      <DependentUpon>ExtensionMethodForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExtensionMethodForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExtensionMethodForm.Designer.cs">
+      <DependentUpon>ExtensionMethodForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -52,6 +70,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RandomForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RandomForm.Designer.cs">
+      <DependentUpon>RandomForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RandomGenerator.cs" />
+    <Compile Include="StringExtensions.cs" />
+    <EmbeddedResource Include="DictionaryForm.resx">
+      <DependentUpon>DictionaryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtensionMethodForm2.resx">
+      <DependentUpon>ExtensionMethodForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtensionMethodForm.resx">
+      <DependentUpon>ExtensionMethodForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -64,6 +99,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="RandomForm.resx">
+      <DependentUpon>RandomForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
